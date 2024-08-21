@@ -68,10 +68,10 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/AllllllllllllllIllllllll"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/@ankitmasih3333"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/Ak_support1"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/https://t.me/badxmusicsupport"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -90,10 +90,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/AllllllllllllllIllllllll"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/@ankitmasih3333"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/Ak_support1"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/badxmusicsupport"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -208,13 +208,7 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="sᴋɪᴘ ‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="▷ ʀᴇsᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="ʀᴇᴘʟᴀʏ ↺", callback_data=f"ADMIN Replay|{chat_id}"
+        ],i ↺", callback_data=f"ADMIN Replay|{chat_id}"
             ),
         ],
         [
@@ -245,10 +239,10 @@ def stream_markup2(_, chat_id):
         ],
 [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/AllllllllllllllIllllllll"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/@ankitmasih3333"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/Ak_support1"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/https://t.me/badxmusicsupport"
             ),
         ],
 

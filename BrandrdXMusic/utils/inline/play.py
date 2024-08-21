@@ -208,7 +208,7 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="sᴋɪᴘ ‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
-        ],i ↺", callback_data=f"ADMIN Replay|{chat_id}"
+        ],i "↺", callback_data=f"ADMIN Replay|{chat_id}"
             ),
         ],
         [

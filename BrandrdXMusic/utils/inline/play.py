@@ -68,10 +68,10 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/@ankitmasih3333"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/ankitmasih3333"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/https://t.me/badxmusicsupport"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/badxmusicsupport"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -90,7 +90,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/@ankitmasih3333"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/ankitmasih3333"
             ),
             InlineKeyboardButton(
                 text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/badxmusicsupport"
@@ -208,7 +208,13 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="sᴋɪᴘ ‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
             ),
-        ],i "↺", callback_data=f"ADMIN Replay|{chat_id}"
+        ],
+        [
+            InlineKeyboardButton(
+                text="▷ ʀᴇsᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"
+            ),
+            InlineKeyboardButton(
+                text="ʀᴇᴘʟᴀʏ ↺", callback_data=f"ADMIN Replay|{chat_id}"
             ),
         ],
         [
@@ -239,10 +245,10 @@ def stream_markup2(_, chat_id):
         ],
 [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/@ankitmasih3333"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/ankitmasih3333"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/https://t.me/badxmusicsupport"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/badxmusicsupport"
             ),
         ],
 
@@ -539,4 +545,3 @@ def panel_markup_clone(_, vidid, chat_id):
     ]
 
     return buttons
-
